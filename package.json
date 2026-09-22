@@ -1,0 +1,20 @@
+{
+  "name": "stowly-icons",
+  "version": "0.1.0",
+  "description": "Re‑packaged @lobehub/icons (MIT) – ready for npm publish and CDN",
+  "main": "es/index.js",
+  "module": "es/index.js",
+  "files": [ "es", "LICENSE" ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/icons-ai.git"
+  },
+  "scripts": {
+    "prepare": "node build.js",
+    "publish": "npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
